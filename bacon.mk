@@ -17,6 +17,9 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# Use soundpicker 1.0
+SOUNDPICKER_10 := true
+
 # AOSP Packages
 PRODUCT_PACKAGES += \
     Launcher3 \
